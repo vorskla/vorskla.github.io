@@ -32,7 +32,7 @@ footer
 	background: url(https://vorskla.org/stuff/images/footer.png);
 	background-repeat: no-repeat;
     background-position: center;
-	background-size: auto;
+	background-size: contain;
  }
 
 div {
