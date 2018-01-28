@@ -30,7 +30,7 @@ footer
   	right: 0;
  	bottom: 0;
   	left: 0;
-	background-image: url('https://vorskla.org/stuff/images/footer.png') center;
+	background: url('https://vorskla.org/stuff/images/footer.png') center;
  }
 
 div {
