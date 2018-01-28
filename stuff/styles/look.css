@@ -26,7 +26,11 @@ footer
   	right: 0;
  	bottom: 0;
   	left: 0;
-	background-image: url(https://vorskla.org/stuff/images/footer.gif) no-repeat auto contain;
+	background:#460074
+}
+footer.work
+{
+		background-image: url(https://vorskla.org/stuff/images/footer.gif) no-repeat auto contain;
 }
 div {
 	color: #37033A;
