@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-color: black
+}
+
+h1 {
+	color: darkgrey;
+	text-align: center;
+}
+p {
+	color: burlywood;
+}
+#pcentral {
+	text-align: center
+}
