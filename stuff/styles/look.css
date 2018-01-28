@@ -32,9 +32,8 @@ footer
 	background: url(https://vorskla.org/stuff/images/footer.png);
 	background-repeat: no-repeat;
     background-position: center;
-	background-size: contain;
- }
-
+	background-size: auto, contain;
+}
 div {
 	color: #37033A;
 	padding-top: 20px;
