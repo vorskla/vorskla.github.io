@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <title>Post of Randomness</title>
-<link href="https://vorskla.org/stuff/styles/look.css" rel="stylesheet" type="text/css">
+<link href="look.css" rel="stylesheet" type="text/css">
 </head>
 
 	<body><div class="stuff"><h1>Randomness is here!!!</h1></div>
@@ -30,6 +30,11 @@ Starting from general todo:<br>
 Down side is that it almost like it's own language (that I don't speak) - what makes it harder is that I am defiently NOT an artist :)</p>
 <p>Eventually, I will be hosting things on my own server, but for that to occur I need to scrounge up and purchase hardware (own server is going to be glorious!). For now, though, github and aws are going to work just fine.</p>
 </div>
+		<p>01/29/2018: accumulating interesting "lessons learned"</p> 
+	<div class="notes"> ubuntu + Apache + wsgi + python - some serious lessons were learned.<br>
+		wsgi works out of box no problems (at least there were none installing and enabling it this time around). Python testpage worked - much happy! Moving on to writing some meaningful code hit a snag - it refused to see my python import. <p>import requests - to be specific :)</p>I dug that out of apache error logs and now I wish I have spent an extra minute to read through the rest of the errors... wsgi mod was installed alright - for python two, and what I was trying to import is python3 only. <br>
+		That about covers the main laughing, I mean, learning points here. Oh, and I took down the two test servers I have in AWS (apperently they ALSO charge by dns request - yeh, it's not a lot, but still! So much for the free tier... and for domains not costing anything after purchase...<br>
+		Well, I'm learning... :) </div>
 </body>
 <footer class="work">
 </footer>
