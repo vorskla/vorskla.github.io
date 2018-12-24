@@ -1,1 +1,0 @@
-<html>Why... is... this.. here... 400!<?php http_response_code(204); ?></html>
